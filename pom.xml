@@ -242,7 +242,7 @@
           <dependencies>
             <dependency>
               <groupId>org.codehaus.mojo</groupId>
-              <artifactId>animal-sniffer-enforcer-rule</artifactId>
+              <artifactId>animal-sniffer-maven-plugin</artifactId>
               <version>1.7</version>
             </dependency>
           </dependencies>
