@@ -43,6 +43,11 @@
    <name>GateIn Management - Parent Project</name>
    <description>GateIn Portal Management Parent Project</description>
 
+   <scm>
+     <connection>scm:git:git@github.com:bdaw/gatein-management.git</connection>
+     <developerConnection>scm:git:git@github.com:bdaw/gatein-management.gitta</developerConnection>
+   </scm>
+
    <properties>
       <org.gatein.common.version>2.0.4-Beta03</org.gatein.common.version>
       <org.gatein.portal.version>3.2.0-M02-SNAPSHOT</org.gatein.portal.version>
