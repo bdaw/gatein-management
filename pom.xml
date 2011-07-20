@@ -236,7 +236,19 @@
 
    <build>
       <plugins>
-         <!--<plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-enforcer-plugin</artifactId>
+          <dependencies>
+            <dependency>
+              <groupId>org.codehaus.mojo</groupId>
+              <artifactId>animal-sniffer-enforcer-rule</artifactId>
+              <version>1.7</version>
+            </dependency>
+          </dependencies>
+        </plugin>
+
+        <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-compiler-plugin</artifactId>
             <version>2.3.2</version>
@@ -244,9 +256,9 @@
                <target>1.6</target>
                <source>1.6</source>
             </configuration>
-         </plugin>-->
+         </plugin>
 
-         <!--<plugin>
+         <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-source-plugin</artifactId>
             <version>2.1.2</version>
@@ -259,7 +271,7 @@
                   </goals>
                </execution>
             </executions>
-         </plugin>-->
+         </plugin>
       </plugins>
    </build>
 
