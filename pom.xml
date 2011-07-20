@@ -236,7 +236,7 @@
 
    <build>
       <plugins>
-         <plugin>
+         <!--<plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-compiler-plugin</artifactId>
             <version>2.3.2</version>
@@ -244,7 +244,7 @@
                <target>1.6</target>
                <source>1.6</source>
             </configuration>
-         </plugin>
+         </plugin>-->
 
          <!--<plugin>
             <groupId>org.apache.maven.plugins</groupId>
