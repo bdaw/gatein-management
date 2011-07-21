@@ -45,7 +45,7 @@
 
    <scm>
      <connection>scm:git:git@github.com:bdaw/gatein-management.git</connection>
-     <developerConnection>scm:git:git@github.com:bdaw/gatein-management.gitta</developerConnection>
+     <developerConnection>scm:git:git@github.com:bdaw/gatein-management.git</developerConnection>
    </scm>
 
    <properties>
